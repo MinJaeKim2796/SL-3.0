@@ -1,5 +1,7 @@
 # samsung.py : 삼성라이온즈 타자들의 타격 기록과 진루 기록을 크롤링 한 후 9명을 선발해내는 파일
 
+Code URL : https://github.com/MinJaeKim2796/SL3.0/blob/master/samsung.py
+
  1) Line 7-69 : NC 다이노스 홈페이지에서 타격 기록 크롤링
    - 선수명, 포지션, 타수, 안타, 2루타, 3루타, 홈런, 볼넷, OPS, 병살타
 
