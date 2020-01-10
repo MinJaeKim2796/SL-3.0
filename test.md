@@ -2,6 +2,6 @@
 
 Code URL : https://github.com/MinJaeKim2796/SL3.0/blob/master/test.py
 
-  1) main.py는 1,000,000회 단위로 실행되지만, test.py는 10,000회 단위로 실행됨
+  1) 10,000회 단위로 Simulation이 실행됨(main.py는 1,000,000회 단위로 실행)
 
   2) main.py는 실행시간이 오래 소요되기 때문에 상대적으로 파일 실행시간을 줄이는 소규모 버전 파일
