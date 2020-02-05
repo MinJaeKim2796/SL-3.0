@@ -1,10 +1,10 @@
-# SL 3.0
+# *SL 3.0*
 
 SL 3.0 : 2017시즌 삼성라이온즈 타자들의 기록을 기반으로 타순의 평균득점을 비교하는 소프트웨어
 
 2017 KHU
 
-[Introduction to Software Convergence] Term project
+[*Introduction to Software Convergence*]  Term project
 
 
 
