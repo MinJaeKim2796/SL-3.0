@@ -60,4 +60,22 @@ SL 3.0 : 2017시즌 삼성라이온즈 타자들의 기록을 기반으로 타�
 
 ## 6. [visualization2.py](https://github.com/MinJaeKim2796/SL3.0/blob/master/visualization2.py) : visualization.py와 동일하게 평균 득점을 보여주는 파일
 
-  1) visualization2.py는 감독, 개발자 기준 라인업에 무작위로 선정된 라인업의 Simulation 평균 득점도 시각화 가능
+  1) visualization2.py는 감독, 개발자 기준 라인업에 무작위로 설정된 라인업의 Simulation 평균 득점도 시각화 가능
+  
+  
+## 7. khslineup.txt, kglineup.txt, kmjlineup.txt, randomlineup.txt : 감독 및 개발자 기준의 라인업과 무작위로 설정된 라인업의 Simulation을 진행한 후 평균 득점이 저장되는 파일
+
+  1) khslineup.txt : 감독 기준 라인업
+  
+  2) kglineup.txt, kmjlineup.txt : 개발자 기준 라인업
+  
+  3) randomlineup.txt : 무작위로 설정된 라인업
+  
+  4) main.py를 실행할 때 마다 위의 텍스트 파일에 평균 득점이 저장되므로 visualization.py의 출력값이 바뀔 수 있음
+  
+
+## 8. defaultlineup.txt : 임의의 라인업으로 저장된 기본 파일
+
+  1) 파일 내용을 변경하지 않고 선수의 이름 순서만 변경시키면 그에 따른 결과값을 얻음
+  
+  2) 7에 첨부된 라인업 텍스트와 달리 defaultlineup.txt는 Simulation이 실행되지 않은 파일임
