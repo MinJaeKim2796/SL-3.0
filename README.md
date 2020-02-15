@@ -18,6 +18,7 @@ KHU
    - 24가지 야구 상황 적용
    
     1) 주자(8) - 없음, 1루, 2루, 3루, 1-2루, 1-3루, 2-3루, 만루
+    
     2) 아웃카운트(3) - 무사, 1사, 2사
 
  4) Line 398-430 : 9이닝 동안 실시하며 경기가 종료된 후 총점을 출력하는 함수
@@ -51,31 +52,48 @@ KHU
   2) main.py는 실행시간이 오래 소요되기 때문에 상대적으로 파일 실행시간을 줄이는 소규모 버전 파일
 
 
-## 5. [visualization.py](https://github.com/MinJaeKim2796/SL3.0/blob/master/visualization.py) : Simulation 후 평균 득점을 보여주는 파일
+## 5. [visualization]() : Simulation 후 평균 득점을 보여주는 파일
 
-  1) Line 3-54 : 감독, 개발자 기준의 라인업으로 Simulation을 진행한 후 각각의 파일에 평균 득점을 저장
-
-  2) Line 58-67 : 저장한 평균 득점 시각화
-
-
-## 6. [visualization2.py](https://github.com/MinJaeKim2796/SL3.0/blob/master/visualization2.py) : visualization.py와 동일하게 평균 득점을 보여주는 파일
-
-  1) visualization2.py는 감독, 개발자 기준 라인업에 무작위로 설정된 라인업의 Simulation 평균 득점도 시각화 가능
+  1) visualization.py
   
-  
-## 7. khslineup.txt, kglineup.txt, kmjlineup.txt, randomlineup.txt : 감독 및 개발자 기준의 라인업과 무작위로 설정된 라인업의 Simulation을 진행한 후 평균 득점이 저장되는 파일
+    1) Line 3-54 : 감독 및 개발자 기준의 라인업으로 Simulation을 진행한 후 각각의 파일에 평균 득점을 저장
+    
+    2) Line 58-67 : 저장한 평균 득점 시각화
 
-  1) khslineup.txt : 감독 기준 라인업
+  2) visualization2.py
   
-  2) kglineup.txt, kmjlineup.txt : 개발자 기준 라인업
-  
-  3) randomlineup.txt : 무작위로 설정된 라인업
-  
-  4) main.py를 실행할 때 마다 위의 텍스트 파일에 평균 득점이 저장되므로 visualization.py의 출력값이 바뀔 수 있음
-  
+    1) 감독, 개발자 기준 라인업에 무작위로 설정된 라인업의 Simulation 평균 득점도 시각화 가능
+    
+    
+## 6. [lineup](https://github.com/MinJaeKim2796/SL3.0/tree/master/lineup) : 라인업이 저장된 파일 
 
-## 8. defaultlineup.txt : 임의의 라인업으로 저장된 기본 파일
+  1) 감독 및 개발자 기준의 라인업과 무작위로 설정된 라인업의 Simulation을 진행한 후 평균 득점이 저장되는 파일
+   - khslineup.txt, kglineup.txt, kmjlineup.txt, randomlineup.txt
+   
+    1) khslineup.txt : 감독 기준 라인업
+    
+    2) kglineup.txt, kmjlineup.txt : 개발자 기준 라인업
+    
+    3) randomlineup.txt : 무작위로 설정된 라인업
+    
+    4) main.py를 실행할 때 마다 위의 텍스트 파일에 평균 득점이 저장되므로 visualization.py의 출력값이 바뀔 수 있음
 
-  1) 파일 내용을 변경하지 않고 선수의 이름 순서만 변경시키면 그에 따른 결과값을 얻음
+  2) 임의의 라인업으로 저장된 기본 파일
+   - defaultlineup.txt
+   
+    1) 파일 내용을 변경하지 않고 선수의 이름 순서만 변경시키면 그에 따른 결과값을 얻음
+    
+    2) defaultlineup.txt는 다른 라인업 텍스트 파일과는 달리 Simulation이 실행되지 않은 파일임
+    
+
+## 7. [batting_visualization]() : 타격 관련 시각화 파일
+
+  1) samsung.py와 samsung.txt를 이용해서 전체 타자의 타격 부분 시각화
   
-  2) 7에 첨부된 라인업 텍스트와 달리 defaultlineup.txt는 Simulation이 실행되지 않은 파일임
+  2) 각 파일을 실행한 후 확인할 수 있는 결과
+  
+    1) atbat_hit_homerun.py : 타수별 안타 및 홈런 수
+    
+    2) bb_homerun.py : 선수별 볼넷 및 홈런의 상관관계
+    
+    3) bb_ops.py : 선수별 볼넷 및 OPS(출루율 + 장타율)
