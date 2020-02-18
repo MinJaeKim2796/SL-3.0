@@ -94,7 +94,7 @@ KHU
     
     
 
-### 7. [batting_visualization]() : 타격 관련 시각화 파일
+### 7. [batting_visualization](https://github.com/MinJaeKim2796/SL3.0/tree/master/batting_visualization) : 타격 관련 시각화 파일
 
   1) samsung.py와 samsung.txt를 이용해서 전체 타자의 타격 부분 시각화
   
@@ -105,3 +105,19 @@ KHU
     2) bb_homerun.py : 선수별 볼넷 및 홈런의 상관관계
     
     3) bb_ops.py : 선수별 볼넷 및 OPS(출루율 + 장타율)
+
+
+
+### 8. Python Module
+
+  1) requests : Python에서 HTTP 요청 등 HTTP와 관련된 다양한 작업을 간편하게 할 수 있는 라이브러리
+  
+  2) BeautifulSoup4 : 웹을 크롤링 한 후 HTML 태그로 부터 원하는 데이터를 편하게 Parsing 할 수 있는 라이브러리
+  
+  3) matplotlib : 그래프를 그릴 때 주로 쓰이는 라이브러리
+
+  4) 설치법
+  
+    1) Windows 콘솔창(CMD)을 열어 pip install requests 라고 입력
+    
+    2) BeautifulSoup4, matplotlib도 동일한 방법으로 입력하여 설치
